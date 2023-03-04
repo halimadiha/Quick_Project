@@ -1,0 +1,172 @@
+/*common start*/
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3b506c;	
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 15px 0;
+	border-bottom: 2px #3b506c33 solid;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+/*logo start*/
+.logo {
+	margin-top: 8px;
+	width: 10%;
+	float: left;
+}
+.logo a {
+	display: block;
+}
+.logo a img {
+	width: 100%;
+}
+/*logo end*/
+/*menu start*/
+.menu {
+	width: 50%;
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	padding: 0 20px;
+	color: #0f2656;
+	text-decoration: none;
+	display: inline-block;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #008aff;
+}
+/*menu start*/
+/*header end*/
+/*banner section start*/
+.banner {
+	padding: 50px 0;
+}
+.container_2 {
+	width: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.b_content {
+	text-align: center;
+}
+.b_h1 {
+	margin: 0;
+	font-size: 50px;
+	font-weight: 700;
+	color: #0f2656;
+	line-height: 65px;
+}
+.b_h1 span{
+	color: #008aff;
+}
+.b_p {
+	margin: 10px 0 20px;
+	line-height: 25px;
+}
+.b_img {
+	width: 80%;
+	margin: 0 auto;
+}
+.b_img img {
+	width: 100%;
+}
+/*banner section end*/
+/*about section start*/
+.about{
+	padding-bottom: 50px;
+}
+.c_left{
+	width: 45%;
+	float: left;
+	text-align: right;
+}
+.c_left h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #f15767;
+	margin: 0;
+
+}
+.c_left p{
+	margin: 5px 0 0;
+	line-height: 23px;
+}
+.c_right{
+	width: 50%;
+	float: right;
+}
+.c_right h2{
+	font-size: 43px;
+    font-weight: 700;
+    color: #0f2656;
+    margin: 0;
+}
+/*about section end*/
+/*service section start*/
+.service{
+	padding-bottom: 60px;
+}
+/*s-item one*/
+.s_item{
+	float: left;
+	width: 26%;
+	padding: 30px 2.65% 40px;
+	margin-right: 3%;
+	border-radius: 10px;
+}
+.s_item:first-child{
+	background-color: #fdebed;
+}
+.s_item:nth-child(2){
+	background-color: #ebf9f4;
+}
+.s_item:last-child{
+	margin-right: 0;
+	background-color: #fff7e8;
+}
+.s_img{}
+.s_img img{
+	width: 100%;
+}
+.s_h2{
+	margin: 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+.s_p{
+	margin: 0;
+	line-height: 23px;
+}
+/*service section end*/
+footer{
+	background-color: #008aff;
+	padding: 25px 0;
+	text-align: center;
+}
+footer p{
+	color: #ffffff;
+}
+footer p a{
+	color: #ffffff;
+	text-decoration: none;
+}
